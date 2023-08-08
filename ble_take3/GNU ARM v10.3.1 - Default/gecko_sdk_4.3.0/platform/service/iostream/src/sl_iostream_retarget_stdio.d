@@ -2,7 +2,7 @@ gecko_sdk_4.3.0/platform/service/iostream/src/sl_iostream_retarget_stdio.o: \
  C:/Users/My\ Laptop/SimplicityStudio/SDKs/gecko_sdk_2/platform/service/iostream/src/sl_iostream_retarget_stdio.c \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\toolchain\inc\sl_gcc_preinclude.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\iostream\inc\sl_iostream.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_enum.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_status.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\em_device.h \
@@ -53,7 +53,7 @@ gecko_sdk_4.3.0/platform/service/iostream/src/sl_iostream_retarget_stdio.o: \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_assert.h
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\iostream\inc\sl_iostream.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_enum.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_status.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\em_device.h:

@@ -46,7 +46,7 @@ gecko_sdk_4.3.0/platform/security/sl_component/sl_protocol_crypto/src/sli_radioa
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_prs_signals.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_dma_descriptor.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_ldmaxbar_defines.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h \
  C:/Users/My\ Laptop/SimplicityStudio/SDKs/gecko_sdk_2/platform/security/sl_component/sl_protocol_crypto/src/sli_radioaes_management.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_status.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\security\sl_component\se_manager\src\sli_se_manager_osal.h \
@@ -58,22 +58,22 @@ gecko_sdk_4.3.0/platform/security/sl_component/sl_protocol_crypto/src/sli_radioa
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core_generic.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_common.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_assert.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/emlib_core_debug_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/emlib_core_debug_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\psa\crypto.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\psa\crypto_platform.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\mbedtls\private_access.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\mbedtls\build_info.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_mbedtls_config.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sli_mbedtls_config_autogen.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_mbedtls_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sli_mbedtls_config_autogen.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\security\sl_component\sl_mbedtls_support\config\sli_mbedtls_omnipresent.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\security\sl_component\sl_mbedtls_support\config\sli_mbedtls_acceleration.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_mbedtls_device_config.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sli_mbedtls_config_transform_autogen.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_mbedtls_device_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sli_mbedtls_config_transform_autogen.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\mbedtls\config_psa.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/psa_crypto_config.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sli_psa_config_autogen.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/psa_crypto_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sli_psa_config_autogen.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\security\sl_component\sl_mbedtls_support\config\sli_psa_acceleration.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sli_psa_builtin_config_autogen.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sli_psa_builtin_config_autogen.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\mbedtls\check_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\psa\crypto_types.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\psa\crypto_values.h \
@@ -159,7 +159,7 @@ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlab
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_prs_signals.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_dma_descriptor.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_ldmaxbar_defines.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h:
 C:/Users/My\ Laptop/SimplicityStudio/SDKs/gecko_sdk_2/platform/security/sl_component/sl_protocol_crypto/src/sli_radioaes_management.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_status.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\security\sl_component\se_manager\src\sli_se_manager_osal.h:
@@ -171,22 +171,22 @@ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core_generic.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_common.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_assert.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/emlib_core_debug_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/emlib_core_debug_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\psa\crypto.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\psa\crypto_platform.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\mbedtls\private_access.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\mbedtls\build_info.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_mbedtls_config.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sli_mbedtls_config_autogen.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_mbedtls_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sli_mbedtls_config_autogen.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\security\sl_component\sl_mbedtls_support\config\sli_mbedtls_omnipresent.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\security\sl_component\sl_mbedtls_support\config\sli_mbedtls_acceleration.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_mbedtls_device_config.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sli_mbedtls_config_transform_autogen.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_mbedtls_device_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sli_mbedtls_config_transform_autogen.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\mbedtls\config_psa.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/psa_crypto_config.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sli_psa_config_autogen.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/psa_crypto_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sli_psa_config_autogen.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\security\sl_component\sl_mbedtls_support\config\sli_psa_acceleration.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sli_psa_builtin_config_autogen.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sli_psa_builtin_config_autogen.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\mbedtls\check_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\psa\crypto_types.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\psa\crypto_values.h:

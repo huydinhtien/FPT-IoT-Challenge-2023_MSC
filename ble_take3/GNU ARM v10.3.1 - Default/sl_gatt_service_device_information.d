@@ -3,19 +3,19 @@ sl_gatt_service_device_information.o: \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\toolchain\inc\sl_gcc_preinclude.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_status.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_gsdk_version.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/gatt_db.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/gatt_db.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\protocol\bluetooth\inc\sli_bt_gattdb_def.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\app\common\util\app_assert\app_assert.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/app_assert_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/app_assert_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\app\common\util\app_log\app_log.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\iostream\inc\sl_iostream.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_enum.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_iostream_handles.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_iostream_init_usart_instances.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_iostream_handles.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_iostream_init_usart_instances.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\power_manager\inc\sl_power_manager.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_power_manager_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_power_manager_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_slist.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\sleeptimer\inc\sl_sleeptimer.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_common.h \
@@ -72,8 +72,8 @@ sl_gatt_service_device_information.o: \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emdrv\dmadrv\inc\dmadrv.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emdrv\common\inc\ecode.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_ldma.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/dmadrv_config.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/app_log_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/dmadrv_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/app_log_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\app\bluetooth\common\gatt_service_device_information\sl_gatt_service_device_information.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\protocol\bluetooth\inc\sl_bt_api.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\protocol\bluetooth\inc\sl_bgapi.h \
@@ -81,19 +81,19 @@ sl_gatt_service_device_information.o: \
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_status.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_gsdk_version.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/gatt_db.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/gatt_db.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\protocol\bluetooth\inc\sli_bt_gattdb_def.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\app\common\util\app_assert\app_assert.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/app_assert_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/app_assert_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\app\common\util\app_log\app_log.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\iostream\inc\sl_iostream.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_enum.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_iostream_handles.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_iostream_init_usart_instances.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_iostream_handles.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_iostream_init_usart_instances.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\power_manager\inc\sl_power_manager.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_power_manager_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_power_manager_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_slist.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\sleeptimer\inc\sl_sleeptimer.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_common.h:
@@ -150,8 +150,8 @@ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\iostream\
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emdrv\dmadrv\inc\dmadrv.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emdrv\common\inc\ecode.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_ldma.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/dmadrv_config.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/app_log_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/dmadrv_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/app_log_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\app\bluetooth\common\gatt_service_device_information\sl_gatt_service_device_information.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\protocol\bluetooth\inc\sl_bt_api.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\protocol\bluetooth\inc\sl_bgapi.h:

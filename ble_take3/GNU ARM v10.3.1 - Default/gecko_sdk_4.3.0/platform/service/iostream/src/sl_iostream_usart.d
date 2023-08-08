@@ -1,7 +1,7 @@
 gecko_sdk_4.3.0/platform/service/iostream/src/sl_iostream_usart.o: \
  C:/Users/My\ Laptop/SimplicityStudio/SDKs/gecko_sdk_2/platform/service/iostream/src/sl_iostream_usart.c \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\toolchain\inc\sl_gcc_preinclude.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_status.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\iostream\inc\sl_iostream.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_enum.h \
@@ -55,9 +55,9 @@ gecko_sdk_4.3.0/platform/service/iostream/src/sl_iostream_usart.o: \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emdrv\dmadrv\inc\dmadrv.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emdrv\common\inc\ecode.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_ldma.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/dmadrv_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/dmadrv_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\power_manager\inc\sl_power_manager.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_power_manager_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_power_manager_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_slist.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\sleeptimer\inc\sl_sleeptimer.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_common.h \
@@ -71,7 +71,7 @@ gecko_sdk_4.3.0/platform/service/iostream/src/sl_iostream_usart.o: \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_bus.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core_generic.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/emlib_core_debug_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/emlib_core_debug_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_cmu_compat.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_gpio.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\sli_em_cmu.h \
@@ -80,7 +80,7 @@ gecko_sdk_4.3.0/platform/service/iostream/src/sl_iostream_usart.o: \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_atomic.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core.h
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\toolchain\inc\sl_gcc_preinclude.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_status.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\iostream\inc\sl_iostream.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_enum.h:
@@ -134,9 +134,9 @@ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\iostream\
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emdrv\dmadrv\inc\dmadrv.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emdrv\common\inc\ecode.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_ldma.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/dmadrv_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/dmadrv_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\power_manager\inc\sl_power_manager.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_power_manager_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_power_manager_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_slist.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\sleeptimer\inc\sl_sleeptimer.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_common.h:
@@ -150,7 +150,7 @@ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_ass
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_bus.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core_generic.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/emlib_core_debug_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/emlib_core_debug_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_cmu_compat.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_gpio.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\sli_em_cmu.h:

@@ -47,14 +47,14 @@ gecko_sdk_4.3.0/platform/emlib/src/em_cmu.o: \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_prs_signals.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_dma_descriptor.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_ldmaxbar_defines.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_assert.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_bus.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core_generic.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_common.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_assert.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/emlib_core_debug_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/emlib_core_debug_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_cmu_compat.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_gpio.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_enum.h \
@@ -115,14 +115,14 @@ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlab
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_prs_signals.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_dma_descriptor.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_ldmaxbar_defines.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_assert.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_bus.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core_generic.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_common.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_assert.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/emlib_core_debug_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/emlib_core_debug_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_cmu_compat.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_gpio.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_enum.h:

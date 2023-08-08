@@ -35,6 +35,7 @@
 #include "sl_app_assert.h"
 #include "em_cmu.h"
 
+//abc
 #define UINT8_TO_BITSTREAM(p, n)      { *(p)++ = (uint8_t)(n); }
 #define UINT32_TO_BITSTREAM(p, n)     { *(p)++ = (uint8_t)(n);         \
                                         *(p)++ = (uint8_t)((n) >> 8);  \

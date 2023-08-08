@@ -1,10 +1,10 @@
 gecko_sdk_4.3.0/hardware/driver/configuration_over_swo/src/sl_cos.o: \
  C:/Users/My\ Laptop/SimplicityStudio/SDKs/gecko_sdk_2/hardware/driver/configuration_over_swo/src/sl_cos.c \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\toolchain\inc\sl_gcc_preinclude.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\hardware\driver\configuration_over_swo\inc\sl_cos.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_enum.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_rail_util_pti_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_rail_util_pti_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\common\rail_types.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\chip\efr32\efr32xg2x\rail_chip_specific.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\common\rail_features.h \
@@ -56,10 +56,10 @@ gecko_sdk_4.3.0/hardware/driver/configuration_over_swo/src/sl_cos.o: \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_status.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\driver\debug\inc\sl_debug_swo.h
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\toolchain\inc\sl_gcc_preinclude.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\hardware\driver\configuration_over_swo\inc\sl_cos.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_enum.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_rail_util_pti_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_rail_util_pti_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\common\rail_types.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\chip\efr32\efr32xg2x\rail_chip_specific.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\common\rail_features.h:

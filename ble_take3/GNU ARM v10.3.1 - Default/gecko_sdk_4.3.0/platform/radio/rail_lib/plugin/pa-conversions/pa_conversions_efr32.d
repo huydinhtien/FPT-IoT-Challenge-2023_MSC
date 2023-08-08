@@ -46,7 +46,7 @@ gecko_sdk_4.3.0/platform/radio/rail_lib/plugin/pa-conversions/pa_conversions_efr
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_prs_signals.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_dma_descriptor.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_ldmaxbar_defines.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_cmu.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_assert.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_bus.h \
@@ -54,7 +54,7 @@ gecko_sdk_4.3.0/platform/radio/rail_lib/plugin/pa-conversions/pa_conversions_efr
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core_generic.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_common.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_assert.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/emlib_core_debug_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/emlib_core_debug_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_cmu_compat.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_gpio.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_enum.h \
@@ -63,7 +63,7 @@ gecko_sdk_4.3.0/platform/radio/rail_lib/plugin/pa-conversions/pa_conversions_efr
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\common\rail_types.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\chip\efr32\efr32xg2x\rail_chip_specific.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\common\rail_features.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_rail_util_pa_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_rail_util_pa_config.h \
  C:/Users/My\ Laptop/SimplicityStudio/SDKs/gecko_sdk_2/platform/radio/rail_lib/plugin/pa-conversions/pa_curves_efr32.h \
  C:/Users/My\ Laptop/SimplicityStudio/SDKs/gecko_sdk_2/platform/radio/rail_lib/plugin/pa-conversions/efr32xg22/sl_rail_util_pa_curves.h \
  C:/Users/My\ Laptop/SimplicityStudio/SDKs/gecko_sdk_2/platform/radio/rail_lib/plugin/pa-conversions/pa_curve_types_efr32.h \
@@ -116,7 +116,7 @@ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlab
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_prs_signals.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_dma_descriptor.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_ldmaxbar_defines.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_cmu.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_assert.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_bus.h:
@@ -124,7 +124,7 @@ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core_generic.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_common.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_assert.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/emlib_core_debug_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/emlib_core_debug_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_cmu_compat.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_gpio.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_enum.h:
@@ -133,7 +133,7 @@ C:/Users/My\ Laptop/SimplicityStudio/SDKs/gecko_sdk_2/platform/radio/rail_lib/pl
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\common\rail_types.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\chip\efr32\efr32xg2x\rail_chip_specific.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\common\rail_features.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_rail_util_pa_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_rail_util_pa_config.h:
 C:/Users/My\ Laptop/SimplicityStudio/SDKs/gecko_sdk_2/platform/radio/rail_lib/plugin/pa-conversions/pa_curves_efr32.h:
 C:/Users/My\ Laptop/SimplicityStudio/SDKs/gecko_sdk_2/platform/radio/rail_lib/plugin/pa-conversions/efr32xg22/sl_rail_util_pa_curves.h:
 C:/Users/My\ Laptop/SimplicityStudio/SDKs/gecko_sdk_2/platform/radio/rail_lib/plugin/pa-conversions/pa_curve_types_efr32.h:

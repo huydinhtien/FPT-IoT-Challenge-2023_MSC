@@ -47,7 +47,7 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_prs_signals.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_dma_descriptor.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_ldmaxbar_defines.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_common.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_assert.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_system.h \
@@ -56,7 +56,7 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_assert.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core_generic.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/emlib_core_debug_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/emlib_core_debug_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\device_init\inc\sl_device_init_nvic.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_status.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\hardware\board\inc\sl_board_init.h \
@@ -67,14 +67,14 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\device_init\inc\sl_device_init_clocks.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\device_init\inc\sl_device_init_emu.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\plugin\fem_util\sl_fem_util.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_fem_util_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_fem_util_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_gpio.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_enum.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\plugin\pa-conversions\pa_conversions_efr32.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\common\rail_types.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\chip\efr32\efr32xg2x\rail_chip_specific.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\common\rail_features.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_rail_util_pa_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_rail_util_pa_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\plugin\pa-conversions\pa_curves_efr32.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\plugin\pa-conversions\efr32xg22/sl_rail_util_pa_curves.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\plugin\pa-conversions\pa_curve_types_efr32.h \
@@ -89,11 +89,11 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\sleeptimer\inc\sl_sleeptimer.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\app\common\util\app_log\app_log.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\iostream\inc\sl_iostream.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_iostream_handles.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_iostream_init_usart_instances.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_iostream_handles.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_iostream_init_usart_instances.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\power_manager\inc\sl_power_manager.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_power_manager_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_power_manager_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_slist.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core_generic.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\iostream\inc\sl_iostream_uart.h \
@@ -101,12 +101,12 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emdrv\dmadrv\inc\dmadrv.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emdrv\common\inc\ecode.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_ldma.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/dmadrv_config.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/app_log_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/dmadrv_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/app_log_config.h \
  ../autogen/sl_bluetooth.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_bluetooth_config.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_bluetooth_connection_config.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_bluetooth_advertiser_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_bluetooth_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_bluetooth_connection_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_bluetooth_advertiser_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\protocol\bluetooth\inc\sl_bt_stack_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\protocol\bluetooth\inc\sl_bt_ll_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\protocol\bluetooth\inc\sl_bt_api.h \
@@ -125,17 +125,17 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\psa\crypto_platform.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\mbedtls\private_access.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\mbedtls\build_info.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_mbedtls_config.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sli_mbedtls_config_autogen.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_mbedtls_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sli_mbedtls_config_autogen.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\security\sl_component\sl_mbedtls_support\config\sli_mbedtls_omnipresent.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\security\sl_component\sl_mbedtls_support\config\sli_mbedtls_acceleration.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_mbedtls_device_config.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sli_mbedtls_config_transform_autogen.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_mbedtls_device_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sli_mbedtls_config_transform_autogen.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\mbedtls\config_psa.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/psa_crypto_config.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sli_psa_config_autogen.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/psa_crypto_config.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sli_psa_config_autogen.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\security\sl_component\sl_mbedtls_support\config\sli_psa_acceleration.h \
- C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sli_psa_builtin_config_autogen.h \
+ C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sli_psa_builtin_config_autogen.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\mbedtls\check_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\psa\crypto_types.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\psa\crypto_values.h \
@@ -225,7 +225,7 @@ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlab
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_prs_signals.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_dma_descriptor.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\bgm22_ldmaxbar_defines.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_common.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_assert.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_system.h:
@@ -234,7 +234,7 @@ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_bus.
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_assert.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core_generic.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/emlib_core_debug_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/emlib_core_debug_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\device_init\inc\sl_device_init_nvic.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_status.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\hardware\board\inc\sl_board_init.h:
@@ -245,14 +245,14 @@ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\device_in
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\device_init\inc\sl_device_init_clocks.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\device_init\inc\sl_device_init_emu.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\plugin\fem_util\sl_fem_util.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_fem_util_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_fem_util_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_gpio.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_enum.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\plugin\pa-conversions\pa_conversions_efr32.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\common\rail_types.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\chip\efr32\efr32xg2x\rail_chip_specific.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\common\rail_features.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_rail_util_pa_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_rail_util_pa_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\plugin\pa-conversions\pa_curves_efr32.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\plugin\pa-conversions\efr32xg22/sl_rail_util_pa_curves.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\radio\rail_lib\plugin\pa-conversions\pa_curve_types_efr32.h:
@@ -267,11 +267,11 @@ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\hardware\board\inc\sl_boar
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\sleeptimer\inc\sl_sleeptimer.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\app\common\util\app_log\app_log.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\iostream\inc\sl_iostream.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_iostream_handles.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_iostream_init_usart_instances.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sl_component_catalog.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_iostream_handles.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_iostream_init_usart_instances.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sl_component_catalog.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\power_manager\inc\sl_power_manager.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_power_manager_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_power_manager_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_slist.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core_generic.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\iostream\inc\sl_iostream_uart.h:
@@ -279,12 +279,12 @@ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\iostream\
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emdrv\dmadrv\inc\dmadrv.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emdrv\common\inc\ecode.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_ldma.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/dmadrv_config.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/app_log_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/dmadrv_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/app_log_config.h:
 ../autogen/sl_bluetooth.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_bluetooth_config.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_bluetooth_connection_config.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_bluetooth_advertiser_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_bluetooth_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_bluetooth_connection_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_bluetooth_advertiser_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\protocol\bluetooth\inc\sl_bt_stack_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\protocol\bluetooth\inc\sl_bt_ll_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\protocol\bluetooth\inc\sl_bt_api.h:
@@ -303,17 +303,17 @@ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\i
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\psa\crypto_platform.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\mbedtls\private_access.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\mbedtls\build_info.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_mbedtls_config.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sli_mbedtls_config_autogen.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_mbedtls_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sli_mbedtls_config_autogen.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\security\sl_component\sl_mbedtls_support\config\sli_mbedtls_omnipresent.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\security\sl_component\sl_mbedtls_support\config\sli_mbedtls_acceleration.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/sl_mbedtls_device_config.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sli_mbedtls_config_transform_autogen.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_mbedtls_device_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sli_mbedtls_config_transform_autogen.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\mbedtls\config_psa.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\config/psa_crypto_config.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sli_psa_config_autogen.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/psa_crypto_config.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sli_psa_config_autogen.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\security\sl_component\sl_mbedtls_support\config\sli_psa_acceleration.h:
-C:\Users\My\ Laptop\Downloads\New\ folder\ble_take3\ble_take3\autogen/sli_psa_builtin_config_autogen.h:
+C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\autogen/sli_psa_builtin_config_autogen.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\mbedtls\check_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\psa\crypto_types.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\util\third_party\mbedtls\include\psa\crypto_values.h:
