@@ -139,10 +139,6 @@ void app_init(void)
   memcpy(arrayX,overlap_x, sizeof(overlap_x));
   memcpy(arrayY,overlap_y, sizeof(overlap_y));
   memcpy(arrayZ,overlap_z, sizeof(overlap_z));
-
-
-
-
 }
 
 void app_process_action(void)
