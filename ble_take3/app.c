@@ -283,9 +283,6 @@ void fake_data(){
                                                        5,
                                                        temp_buffer);
 
-
-      //delay_microseconds(500);
-
 }
 
 
