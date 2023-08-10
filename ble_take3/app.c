@@ -51,7 +51,7 @@ double tempX[OVERLAP_SIZE],tempY[OVERLAP_SIZE],tempZ[OVERLAP_SIZE];
 static uint8_t advertising_set_handle = 0xff;
 static uint8_t connection_handle = 0xff;
 static void fake_data();
-static uint32_t get_data();
+static uint8_t get_data();
 
 /**************************************************************************//**
  * Application Init.
@@ -192,10 +192,14 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 
       connection_handle = 0xff;
 
-      sc = sl_bt_system_set_lazy_soft_timer(0, 0, 0, 0);
+      /*sc = sl_bt_system_set_lazy_soft_timer(0, 0, 0, 0);
       app_assert(sc == SL_STATUS_OK,
                              "[E: 0x%04x] Failed to stop a software timer\n",
-                             (int)sc);
+                             (int)sc);*/
+
+      sc = sl_bt_legacy_advertiser_generate_data(advertising_set_handle,
+                                                       sl_bt_advertiser_general_discoverable);
+      app_assert_status(sc);
 
 
       // Restart advertising after client has disconnected.
@@ -265,32 +269,28 @@ void fake_data(){
   uint8_t temp_buffer[5];
   uint8_t flags = 0x00;
   uint8_t *p = temp_buffer;
-  uint32_t test_data;
-  uint32_t test;
 
 
           UINT8_TO_BITSTREAM(p, flags);
 
-          test_data = get_data();
+          //test_data = get_data();
 
-          test = FLT_TO_UINT32(test_data, 0);
+          //test = FLT_TO_UINT32(test_data, 0);
 
-          UINT32_TO_BITSTREAM(p, test);
+          UINT32_TO_BITSTREAM(p, get_data());
           sc = sl_bt_gatt_server_send_indication(connection_handle,
                                                  gattdb_test_char,
                                                        5,
                                                        temp_buffer);
-          app_assert(sc == SL_STATUS_OK,
-                     "[E: 0x%04x] Failed to send notifications\n",
-                     (int)sc);
+
 
       //delay_microseconds(500);
 
 }
 
 
-uint32_t get_data(){
-  static uint32_t value;
+uint8_t get_data(){
+  static uint8_t value;
 
 
   for(int i =0;;i++){
@@ -298,11 +298,11 @@ uint32_t get_data(){
       get_acc(xyz);
 
       if(Timer0_OF == true){
-      // save 5 values to each window.
-          arrayX[j+5] = xyz[0];
-          arrayY[j+5] = xyz[1];
-          arrayZ[j+5] = xyz[2];
-      // save 5 temporary values to re-assign overlap array.
+      /// save 5 values to each window.
+          arrayX[j+OVERLAP_SIZE] = xyz[0];
+          arrayY[j+OVERLAP_SIZE] = xyz[1];
+          arrayZ[j+OVERLAP_SIZE] = xyz[2];
+      /// save 5 temporary values to re-assign overlap array.
           tempX[j] = xyz[0];
           tempY[j] = xyz[1];
           tempZ[j] = xyz[2];
@@ -310,7 +310,7 @@ uint32_t get_data(){
           Timer0_OF = false;
           j++;
       }
-      if(j>=5){
+      if(j>=OVERLAP_SIZE){
        /*Save 5 values's overlap to array[0:4] and re-assign these overlap
         * values to windows array
         */
@@ -326,7 +326,7 @@ uint32_t get_data(){
           memcpy(arrayZ,overlap_z, sizeof(overlap_z));
           memcpy(overlap_z,tempZ, sizeof(tempZ));
 
-        //feature measurement
+        ///feature measurement
         //double mean_x = findMean(arrayX, WINDOW_SIZE);
         //double range_x = findRange(arrayX, WINDOW_SIZE);
           double iqr_x =findIQR(arrayX, WINDOW_SIZE); //75,25
@@ -346,11 +346,11 @@ uint32_t get_data(){
          * 5 : Walking
          */
 
-          check_lying(rms_x);
-          check_standing(std_x,rms_x,rms_y);
-          check_sitting(rms_x,std_x,rms_y,iqr_x,range_y,mean_y);
-          check_jogging(rms_x,std_x,iqr_x,range_y);
-          check_walking(rms_x,std_x,iqr_x,range_y,mean_y);
+          check_lying(rms_x,&value);
+          check_standing(std_x,rms_x,rms_y,&value);
+          check_sitting(rms_x,std_x,rms_y,iqr_x,range_y,mean_y,&value);
+          check_jogging(rms_x,std_x,iqr_x,range_y,&value);
+          check_walking(rms_x,std_x,iqr_x,range_y,mean_y,&value);
 
         j=0;
 

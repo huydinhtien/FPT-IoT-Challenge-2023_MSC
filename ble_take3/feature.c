@@ -10,7 +10,6 @@
 #include "app.h"
 
 int walk_t = 0, jog_t = 0,stand_t = 0,lie_t = 0,sit_t = 0;
-static uint32_t value;
 
 double findMean(double *myArray, int size_arr){
     double mean = 0;
@@ -72,34 +71,34 @@ double findIQR(double *myArray, int size_arr){
 
 
 //lying
-void check_lying(double rms_x){
+void check_lying(double rms_x, uint8_t *value){
     if(rms_x<=TH_RMS_X){
         walk_t=0,jog_t=0,stand_t = 0;lie_t ++;sit_t=0;
         if(lie_t >= 2){
             printf("Lying\n");
-            value = 1;
+            *value = 1;
         }
     }
 }
 
 
 // standing
-void check_standing(double std_x, double rms_x, double rms_y){
+void check_standing(double std_x, double rms_x, double rms_y,uint8_t *value){
     if(rms_x >TH_RMS_X && std_x<=TH_STD_X1 && rms_y<= TH_RMS_Y){
         walk_t=0,jog_t=0,stand_t ++;lie_t =0;sit_t=0;
         if(stand_t>=3) {
             printf("Standing\n");
-            value = 2;
+            *value = 2;
         }
     }
 }
 
-void check_sitting(double rms_x, double std_x, double rms_y, double iqr_x, double range_y, double mean_y){
+void check_sitting(double rms_x, double std_x, double rms_y, double iqr_x, double range_y, double mean_y,uint8_t *value){
     if(rms_x >TH_RMS_X && std_x<=TH_STD_X1 && rms_y > TH_RMS_Y){
         walk_t=0,jog_t=0,stand_t = 0;lie_t =0;sit_t ++;
         if(sit_t>=3){
             printf("Sitting\n");
-            value = 3;
+            *value = 3;
         }
     }
 
@@ -107,17 +106,17 @@ void check_sitting(double rms_x, double std_x, double rms_y, double iqr_x, doubl
         walk_t=0,jog_t=0,stand_t = 0;lie_t =0;sit_t++;
         if(sit_t >=3) {
             printf("Sitting\n");
-            value = 3;
+            *value = 3;
         }
     }
 }
 
-void check_jogging(double rms_x, double std_x, double iqr_x, double range_y){
+void check_jogging(double rms_x, double std_x, double iqr_x, double range_y, uint8_t *value){
     if(rms_x >TH_RMS_X && std_x>TH_STD_X1 && iqr_x> TH_IQR_X){
         walk_t=0,jog_t++,stand_t = 0;lie_t =0;sit_t=0;
         if(jog_t >=3){
             printf("Jogging\n");
-            value = 4;
+            *value = 4;
         }
     }
 
@@ -125,24 +124,24 @@ void check_jogging(double rms_x, double std_x, double iqr_x, double range_y){
          walk_t=0,jog_t++,stand_t = 0;lie_t =0;sit_t=0;
          if(jog_t >=3) {
             printf("Jogging\n");
-            value = 4;
+            *value = 4;
          }
     }
 }
-void check_walking(double rms_x, double std_x, double iqr_x, double range_y, double mean_y){
+void check_walking(double rms_x, double std_x, double iqr_x, double range_y, double mean_y, uint8_t *value){
     if(rms_x >TH_RMS_X && std_x >TH_STD_X1 && iqr_x<= TH_IQR_X && range_y <=TH_RANGE_Y && mean_y<=TH_MEAN_Y){
         walk_t++,jog_t=0,stand_t = 0;lie_t =0;sit_t=0;
-        if(walk_t++ >=3) {
+        if(walk_t++ >3) {
             printf("Walikng\n");
-            value = 5;
+            *value = 5;
         }
     }
 
     if(rms_x >TH_RMS_X && std_x >TH_STD_X1 && iqr_x<= TH_IQR_X && range_y >TH_RANGE_Y && std_x<=TH_STD_X2){
         walk_t++,jog_t=0,stand_t = 0;lie_t =0;sit_t=0;
-        if(walk_t++ >=3){
+        if(walk_t++ >3){
             printf("Walikng\n");
-            value = 5;
+            *value = 5;
         }
     }
 }
