@@ -26,16 +26,16 @@ This project using the BGM220 Bluetooth Wireless Explore Kit as a microcontrolle
     * Select the CONFIGURATION TOOLS tab and open the "Bluetooth GATT Configurator".
     * Find the Import button and import the attached gatt_configuration.btconf file.
     * Save the GATT configuration (ctrl-s).
-![Alt text](https://imgur.com/jFj5WhQ)
+![Imgur](https://i.imgur.com/jFj5WhQ.png)
 
 3. Open the .slcp file again. Select the "SOFTWARE COMPONENTS" tab and do the following changes:
 
 * Install the IADC component (found under Platform > Peripheral).
-![Alt text](https://imgur.com/VKNjGDm)
+![Imgur](https://i.imgur.com/VKNjGDm.png)
 * Install IO Stream: USART component with the default instance name: vcom.
-![Alt text](https://imgur.com/Owdip1Q)
+![Imgur](https://i.imgur.com/Owdip1Q.png)
 * Install the I2C component
-![Alt text](https://imgur.com/a8id392)
+![Imgur](https://i.imgur.com/a8id392.png)
 
 #### Note:
 
@@ -46,10 +46,10 @@ This project using the BGM220 Bluetooth Wireless Explore Kit as a microcontrolle
 Follow the below steps to test the example:
 
 1. Open the Motion Care app on your android mobile device.
-![Alt text](https://imgur.com/xFUW3kD)
+![Imgur](https://i.imgur.com/xFUW3kD.png)
 
 2. Find your device in the "", advertising as "MSC" and connect to it.
-![Alt text](https://imgur.com/Uj5oUQT)
+![Imgur](https://i.imgur.com/Uj5oUQT.png)
 ## Motion Care BLE Mobile Application
 You can find the source code for the Motion Care Android mobile application in msc_android_app folder.
 
