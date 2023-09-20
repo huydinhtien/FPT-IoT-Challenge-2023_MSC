@@ -1,32 +1,8 @@
-/***************************************************************************//**
- * @file
- * @brief Core application logic.
- *******************************************************************************
- * # License
- * <b>Copyright 2020 Silicon Laboratories Inc. www.silabs.com</b>
- *******************************************************************************
- *
- * SPDX-License-Identifier: Zlib
- *
- * The licensor of this software is Silicon Laboratories Inc.
- *
- * This software is provided 'as-is', without any express or implied
- * warranty. In no event will the authors be held liable for any damages
- * arising from the use of this software.
- *
- * Permission is granted to anyone to use this software for any purpose,
- * including commercial applications, and to alter it and redistribute it
- * freely, subject to the following restrictions:
- *
- * 1. The origin of this software must not be misrepresented; you must not
- *    claim that you wrote the original software. If you use this software
- *    in a product, an acknowledgment in the product documentation would be
- *    appreciated but is not required.
- * 2. Altered source versions must be plainly marked as such, and must not be
- *    misrepresented as being the original software.
- * 3. This notice may not be removed or altered from any source distribution.
- *
- ******************************************************************************/
+/*
+ * app.c
+ * Created on: Jul 28, 2023
+ *      Author: Le Anh
+ */
 #include "em_common.h"
 #include "app_assert.h"
 #include "sl_bluetooth.h"
@@ -37,7 +13,7 @@
 #include "em_iadc.h"
 #include "em_emu.h"
 
-
+// macro for transfering uint8 or uint32 to bitstream
 #define UINT8_TO_BITSTREAM(p, n)      { *(p)++ = (uint8_t)(n); }
 #define UINT32_TO_BITSTREAM(p, n)     { *(p)++ = (uint8_t)(n);         \
                                         *(p)++ = (uint8_t)((n) >> 8);  \
@@ -293,26 +269,29 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 void send_data(){
 
     sl_status_t sc;
-    uint8_t temp_buffer[5];
-    uint8_t flags = 0x00;
-    uint8_t *p = temp_buffer;
-    uint16_t data = getData();
+    uint8_t temp_buffer[5]; // store activity value
+    uint8_t flags = 0x00; /* flags set as 1 for changing the
+                             language between English and Vietnamese*/
+
+    uint8_t *p = temp_buffer; /*Pointer to temp_buffer needed for converting
+                                activity encoded values to bitstream*/
+    uint16_t data = getData(); //store activity along with batery percentage
 
 
-            UINT8_TO_BITSTREAM(p, flags);
+    /* Convert flag to bitstream and append it
+      * in the temp buffer (temp_buffer[5]) */
+    UINT8_TO_BITSTREAM(p, flags);
 
-            //test_data = get_data();
-
-            //test = FLT_TO_UINT32(test_data, 0);
-
-            UINT32_TO_BITSTREAM(p, data);
-            sc = sl_bt_gatt_server_send_indication(connection_handle,
-                                                   gattdb_test_char,
-                                                         5,
-                                                         temp_buffer);
-            app_assert(sc == SL_STATUS_OK,
-                                   "[E: 0x%04x] Failed to stop a software timer\n",
-                                   (int)sc);
+    // convert "data" to bitstream append them to temp_buffer.
+    UINT32_TO_BITSTREAM(p, data);
+    /*
+     * send indication to mobile app
+     * This enable to receive value from mobile app
+     */
+    sc = sl_bt_gatt_server_send_indication(connection_handle,
+                                           gattdb_test_char,
+                                           5,
+                                           temp_buffer);
 
 }
 
@@ -345,7 +324,6 @@ uint16_t HAR(){
        /*Save 5 values's overlap to array[0:4] and re-assign these overlap
         * values to windows array
         */
-
        //X
           memcpy(arrayX,overlap_x, sizeof(overlap_x));
           memcpy(overlap_x,tempX, sizeof(tempX));
