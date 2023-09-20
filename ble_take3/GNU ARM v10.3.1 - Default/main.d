@@ -62,16 +62,18 @@ main.o: ../main.c \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\sli_em_cmu.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_gpio.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_timer.h \
- ../feature.h ../Timer0.h ../adxl345.h \
+ ../feature.h \
+ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\sleeptimer\inc\sl_sleeptimer.h \
+ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_status.h \
+ ../Timer0.h ../adxl345.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_i2c.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_chip.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_system.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_system_generic.h \
+ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_iadc.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\power_manager\inc\sl_power_manager.h \
  C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_power_manager_config.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_slist.h \
- c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_status.h \
- c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\sleeptimer\inc\sl_sleeptimer.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core_generic.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\system\inc\sl_system_process_action.h
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\toolchain\inc\sl_gcc_preinclude.h:
@@ -138,16 +140,17 @@ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\sli_em_
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_gpio.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_timer.h:
 ../feature.h:
+c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\sleeptimer\inc\sl_sleeptimer.h:
+c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_status.h:
 ../Timer0.h:
 ../adxl345.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_i2c.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_chip.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_system.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_system_generic.h:
+c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_iadc.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\power_manager\inc\sl_power_manager.h:
 C:\Users\My\ Laptop\Desktop\FPT-IoT-Challenge-2023_MSC\ble_take3\config/sl_power_manager_config.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_slist.h:
-c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\inc\sl_status.h:
-c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\sleeptimer\inc\sl_sleeptimer.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_core_generic.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\service\system\inc\sl_system_process_action.h:

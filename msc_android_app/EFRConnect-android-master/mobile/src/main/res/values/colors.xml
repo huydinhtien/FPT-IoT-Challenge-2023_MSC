@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">@color/silabs_red</color>
+
+    <color name="silabs_blue">#06A96B</color>
+    <color name="silabs_red">#D91E2A</color>
+    <color name="silabs_white">#FFFFFF</color>
+    <color name="silabs_black">#000000</color>
+    <color name="silabs_transparent">#00000000</color>
+
+    <color name="silabs_ripple_blue">#328766</color>
+
+    <color name="silabs_red_dark">#FFA1171F</color>
+
+    <color name="silabs_background">#ECECEC</color>
+
+    <color name="silabs_inactive">#7C7C7C</color>
+    <color name="silabs_inactive_light">#AFAFAF</color>
+    <color name="silabs_subtle_text">#7C7C7C</color>
+    <color name="silabs_primary_text">#333333</color>
+    <color name="silabs_dark_gray_text">#666666</color>
+
+    <color name="silabs_primary_icon">#333333</color>
+    <color name="silabs_dark_gray_icon">#666666</color>
+
+    <color name="silabs_dialog_title_background">#F2F2F2</color>
+    <color name="silabs_divider">#CCCCCC</color>
+
+    <color name="silabs_speedmeter_start">#06A96B</color>
+    <color name="silabs_speedmeter_center">#921084</color>
+    <color name="silabs_speedmeter_end">#D91E2A</color>
+
+    <!-- Colors probably to change in the future -->
+    <color name="dialog_loading_spinner_center">#FF999999</color>
+    <color name="dialog_loading_spinner_end">#FF666666</color>
+    <color name="dialog_loading_spinner_start">#FFE6E6E6</color>
+
+    <color name="silabs_click_grey">#28000000</color>
+
+    <!--============================= DELETE IN THE FUTURE ==============================-->
+    <color name="gallery">#FFF1EFEF</color>
+    <color name="masala">#FF504E4E</color>
+    <color name="boulder">#FF7A7878</color>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="sl_light_grey">#ffefefef</color>
+    <color name="sl_white">#ffffffff</color>
+    <color name="silicon_grey">#ff797777</color>
+    <color name="divider_line">@color/silicon_grey</color>
+
+    <!--RESKINNING-->
+
+    <color name="main_background">#ececec</color>
+    <color name="tb_font_grey">#7c7c7c</color>
+    <color name="tb_red">#d91e2a</color>
+    <color name="tb_green_dot">#32d74b</color>
+    <color name="tb_blue">#06A96B</color>
+    <color name="tb_grey">#cccccc</color>
+
+    <!-- WiFi Commissioning -->
+    <color name="grey">#808080</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <!-- REDESIGN 07/22 -->
+    <color name="blue_primary">#06A96B</color>
+    <color name="blue_dark">#06A96B</color>
+    <color name="blue_teal">#bff3ff</color>
+
+    <color name="gray_background">#D7D7D7</color>
+
+    <color name="full_screen_info">#5089b2</color>
+
+    <color name="gray_subtle">#e1e1e1</color>
+    <color name="btn_action_on">#D91E2A</color>
+    <color name="btn_disabled">#c2c2c2</color>
+
+    <color name="menu_icon">@android:color/white</color>
+    <color name="action_icon">@color/silabs_dark_gray_icon</color>
+
+    <color name="list_item_card_view_box">@android:color/white</color>
+    <color name="list_item_card_view_details">@color/gray_subtle</color>
+    <color name="list_item_card_view_icon_background">#E7E7E7</color>
+    <color name="list_item_card_view_icon_foreground">@android:color/black</color>
+
+    <color name="bar_with_additional_info">@color/white</color>
+
+    <color name="track_disabled">#80C0C0C0</color>
+    <color name="thumb_disabled">#80FFFFFF</color>
+
+    <color name="fly_in_bar_gradient">#B3B3FF</color>
+    <color name="spinner_end_gradient">@color/blue_dark</color>
+    <color name="seekbar_progress">@color/blue_dark</color>
+    <color name="seekbar_background">@color/gray_background</color>
+    <color name="beacon_filter_background">#F0F0F0</color>
+
+    <color name="splash_screen_end_gradient">#5E666A</color>
+    <color name="splash_screen_start_gradient">#F3F6EF</color>
+
+    <color name="graph_label_inactive">#E0E0E0</color>
+
+    <!-- ESL Demo -->
+    <color name="esl_led_on">#FBE106</color>
+    <color name="esl_led_off">@color/action_icon</color>
+</resources>

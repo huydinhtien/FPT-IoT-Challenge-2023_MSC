@@ -98,8 +98,10 @@ app.o: ../app.c \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_chip.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_system.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_system_generic.h \
+ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_iadc.h \
  c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\app\common\util\app_assert\sl_app_assert.h \
- c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\app\common\util\app_assert\app_assert.h
+ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\app\common\util\app_assert\app_assert.h \
+ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_emu.h
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_common.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\device\siliconlabs\bgm22\include\em_device.h:
@@ -201,5 +203,7 @@ c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_i2c.
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_chip.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_system.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_system_generic.h:
+c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_iadc.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\app\common\util\app_assert\sl_app_assert.h:
 c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\app\common\util\app_assert\app_assert.h:
+c:\users\my\ laptop\simplicitystudio\sdks\gecko_sdk_2\platform\emlib\inc\em_emu.h:

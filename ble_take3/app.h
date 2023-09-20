@@ -38,6 +38,7 @@
 #include "adxl345.h"
 #include "em_device.h"
 #include "em_chip.h"
+#include "em_iadc.h"
 
 // size's window and overlap array
 #define WINDOW_SIZE 10
@@ -51,6 +52,27 @@
 #define TH_RANGE_Y 1.375
 #define TH_MEAN_Y 0.301
 #define TH_STD_X2 0.253
+
+#define DECISION_TIME1 3
+#define DECISION_TIME2 2
+
+#define LED_PORT gpioPortB
+#define LED_PIN 4
+
+
+// Set CLK_ADC to 10 MHz
+#define CLK_SRC_ADC_FREQ        20000000  // CLK_SRC_ADC
+#define CLK_ADC_FREQ            10000000  // CLK_ADC - 10 MHz max in normal mode
+
+#define IADC_INPUT_0_PORT_PIN     iadcPosInputPortBPin0;
+
+#define IADC_INPUT_0_BUS          BBUSALLOC
+#define IADC_INPUT_0_BUSALLOC     GPIO_BBUSALLOC_BEVEN0_ADC0
+
+#define EM2DEBUG
+
+
+
 
 
 /**************************************************************************//**

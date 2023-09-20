@@ -34,14 +34,17 @@
 #include "app.h"
 #include "sl_app_assert.h"
 #include "em_cmu.h"
+#include "em_iadc.h"
+#include "em_emu.h"
+
 
 #define UINT8_TO_BITSTREAM(p, n)      { *(p)++ = (uint8_t)(n); }
 #define UINT32_TO_BITSTREAM(p, n)     { *(p)++ = (uint8_t)(n);         \
                                         *(p)++ = (uint8_t)((n) >> 8);  \
                                         *(p)++ = (uint8_t)((n) >> 16); \
                                         *(p)++ = (uint8_t)((n) >> 24); }
-#define FLT_TO_UINT32(m, e)           (((uint32_t)(m) & 0x00FFFFFFU) \
-                                       | (uint32_t)((uint32_t)(e) << 24))
+
+
 extern bool Timer0_OF;
 double xyz[3];
 double overlap_x[OVERLAP_SIZE],overlap_y[OVERLAP_SIZE],overlap_z[OVERLAP_SIZE];
@@ -50,21 +53,23 @@ double tempX[OVERLAP_SIZE],tempY[OVERLAP_SIZE],tempZ[OVERLAP_SIZE];
 // The advertising set handle allocated from Bluetooth stack.
 static uint8_t advertising_set_handle = 0xff;
 static uint8_t connection_handle = 0xff;
-static void fake_data();
-static uint8_t get_data();
+static void send_data();
+static uint16_t get_data();
+//static uint16_t get_percentPin();
 
 /**************************************************************************//**
  * Application Init.
  *****************************************************************************/
 SL_WEAK void app_init(void)
 {
+
     CHIP_Init();
     initCMU();
     Timer0_Init();
     Timer0_Enable();
     GPIO_PinModeSet(SCL_PORT, SCL_PIN, gpioModeWiredAndPullUpFilter,1);
     GPIO_PinModeSet(SDA_PORT,SDA_PIN,gpioModeWiredAndPullUpFilter,1);
-    GPIO_PinModeSet(gpioPortA,4,gpioModePushPull,1);
+    GPIO_PinModeSet(LED_PORT,LED_PIN,gpioModePushPull,0);
     i2c_Init();
     init_adxl();
     //set activity/ inactivity thresholds (0-255)
@@ -161,6 +166,8 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
       sc = sl_bt_advertiser_create_set(&advertising_set_handle);
       app_assert_status(sc);
 
+
+
       // Generate data for advertising
       sc = sl_bt_legacy_advertiser_generate_data(advertising_set_handle,
                                                  sl_bt_advertiser_general_discoverable);
@@ -173,10 +180,17 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
         160, // max. adv. interval (milliseconds * 1.6)
         0,   // adv. duration
         0);  // max. num. adv. events
+
+      //set channel advertise on 3 channel
+
+      sc = sl_bt_advertiser_set_channel_map(advertising_set_handle,7);
+
       app_assert_status(sc);
+
       // Start advertising and enable connections.
       sc = sl_bt_legacy_advertiser_start(advertising_set_handle,
                                          sl_bt_advertiser_connectable_scannable);
+
       app_assert_status(sc);
       break;
 
@@ -184,6 +198,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
     // This event indicates that a new connection was opened.
     case sl_bt_evt_connection_opened_id:
       connection_handle = evt->data.evt_connection_opened.connection;
+      GPIO_PinOutSet(LED_PORT, LED_PIN);
       break;
 
     // -------------------------------
@@ -199,6 +214,8 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 
       sc = sl_bt_legacy_advertiser_generate_data(advertising_set_handle,
                                                        sl_bt_advertiser_general_discoverable);
+      GPIO_PinOutClear(LED_PORT, LED_PIN);
+
       app_assert_status(sc);
 
 
@@ -248,7 +265,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
               /* HAR as defined in the function\
                *   har() */
 
-              fake_data();
+              send_data();
 
              break;
 
@@ -263,31 +280,35 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
   }
 }
 
-void fake_data(){
+void send_data(){
 
-  sl_status_t sc;
-  uint8_t temp_buffer[5];
-  uint8_t flags = 0x00;
-  uint8_t *p = temp_buffer;
+    sl_status_t sc;
+    uint8_t temp_buffer[5];
+    uint8_t flags = 0x00;
+    uint8_t *p = temp_buffer;
+    uint16_t data = get_data();
 
 
-          UINT8_TO_BITSTREAM(p, flags);
+            UINT8_TO_BITSTREAM(p, flags);
 
-          //test_data = get_data();
+            //test_data = get_data();
 
-          //test = FLT_TO_UINT32(test_data, 0);
+            //test = FLT_TO_UINT32(test_data, 0);
 
-          UINT32_TO_BITSTREAM(p, get_data());
-          sc = sl_bt_gatt_server_send_indication(connection_handle,
-                                                 gattdb_test_char,
-                                                       5,
-                                                       temp_buffer);
+            UINT32_TO_BITSTREAM(p, data);
+            sc = sl_bt_gatt_server_send_indication(connection_handle,
+                                                   gattdb_test_char,
+                                                         5,
+                                                         temp_buffer);
+            app_assert(sc == SL_STATUS_OK,
+                                   "[E: 0x%04x] Failed to stop a software timer\n",
+                                   (int)sc);
 
 }
 
 
-uint8_t get_data(){
-  static uint8_t value;
+uint16_t get_data(){
+  static uint16_t value;
 
 
   for(int i =0;;i++){
@@ -348,10 +369,16 @@ uint8_t get_data(){
           check_sitting(rms_x,std_x,rms_y,iqr_x,range_y,mean_y,&value);
           check_jogging(rms_x,std_x,iqr_x,range_y,&value);
           check_walking(rms_x,std_x,iqr_x,range_y,mean_y,&value);
-
+          uint16_t getPer = get_percentPin();
         j=0;
+        value = value*100 + getPer;
+
+
 
     }
       return value;
+
   }
+  return value;
 }
+

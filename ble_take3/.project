@@ -211,6 +211,11 @@
 			<locationURI>STUDIO_SDK_LOC/platform/emlib/inc/em_i2c.h</locationURI>
 		</link>
 		<link>
+			<name>gecko_sdk_4.3.0/platform/emlib/inc/em_iadc.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/emlib/inc/em_iadc.h</locationURI>
+		</link>
+		<link>
 			<name>gecko_sdk_4.3.0/platform/emlib/inc/em_ldma.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/emlib/inc/em_ldma.h</locationURI>
@@ -309,6 +314,11 @@
 			<name>gecko_sdk_4.3.0/platform/emlib/src/em_i2c.c</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/emlib/src/em_i2c.c</locationURI>
+		</link>
+		<link>
+			<name>gecko_sdk_4.3.0/platform/emlib/src/em_iadc.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/emlib/src/em_iadc.c</locationURI>
 		</link>
 		<link>
 			<name>gecko_sdk_4.3.0/platform/emlib/src/em_ldma.c</name>

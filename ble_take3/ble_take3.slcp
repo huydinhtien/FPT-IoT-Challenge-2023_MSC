@@ -29,8 +29,8 @@ component:
 - {id: bluetooth_feature_gatt_server}
 - {id: in_place_ota_dfu}
 - {id: bluetooth_feature_sm}
-- {id: mpu}
 - {id: bluetooth_feature_legacy_advertiser}
+- {id: mpu}
 - {id: gatt_configuration}
 - {id: gatt_service_device_information}
 - {id: bluetooth_stack}
@@ -39,6 +39,7 @@ component:
 - {id: brd4314a}
 - {id: BGM220PC22HNA}
 - {id: emlib_i2c}
+- {id: emlib_iadc}
 - {id: bluetooth_feature_legacy_scanner}
 - {id: app_log}
 - {id: bt_post_build}

@@ -2,7 +2,7 @@
  * adxl345.h
  *
  *  Created on: Jul 28, 2023
- *      Author: My Laptop
+ *      Author: Le Anh
  */
 
 #ifndef ADXL345_H_

@@ -2,7 +2,7 @@
  * adxl345.c
  *
  *  Created on: Jul 28, 2023
- *      Author: My Laptop
+ *      Author: Le Anh
  */
 
 #include "adxl345.h"
@@ -99,7 +99,7 @@ void init_adxl(){
             }
             // set full resolution and range +/- 16g
             i2c_Write(ADXL345_REG_DATA_FORMAT,0x0B);
-            // set Data
+            // set data rate
             i2c_Write(ADXL345_REG_BW_RATE, ADXL345_DATARATE_50_HZ);
             // start measurement
             i2c_Write(ADXL345_REG_POWER_CTL, 0x08);
