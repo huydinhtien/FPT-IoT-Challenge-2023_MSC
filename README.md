@@ -20,7 +20,7 @@ This project using the BGM220 Bluetooth Wireless Explore Kit as a microcontrolle
 
 ### Create a project based on an example project
 1. From the Launcher Home, add your hardware to My Products, click on it, and click on the EXAMPLE PROJECTS & DEMOS tab. Find the example project with the filter "SoC Empty".
-![Alt text](https://imgur.com/Gl0qvlu)
+![Imgur](https://i.imgur.com/Gl0qvlu.png)
 2. Import the GATT configuration:
     * Create the .slcp file in the project. 
     * Select the CONFIGURATION TOOLS tab and open the "Bluetooth GATT Configurator".
