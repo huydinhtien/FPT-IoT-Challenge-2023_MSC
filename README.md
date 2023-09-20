@@ -1,16 +1,16 @@
 # Developing a wearable device for the elderly and patients undergoing functional recovery
-## Machine learning Algorithm for Activity Classification
-### What is Machine learning?
+## Machine learning algorithm for activity classification
+### What is machine learning?
 Machine learning is a subset of artificial intelligence that focuses on the development of algorithms and statistical models that enable computers to improve their performance on a specific task through learning from data, without being explicitly programmed. Machine learning algorithms analyze large datasets, find patterns, and make predictions or decisions based on the information they've learned. This technology has significantly impacted industries and continues to drive innovation and automation in a wide range of applications. In this project, we use the Decision tree algorithm to train a human activity classification model which will be embedded to a wearable device for real-time activity monitoring.
 
-### What is Decision tree?
-Decision tree is a popular machine learning algorithm used for both classification and regression tasks. It is a visual representation of a decision-making process that resembles an upside-down tree. Decision trees work by recursively splitting data into subsets based on the most significant attributes or features. At each internal node of the tree, a decision is made, and branches are created that lead to child nodes. These decisions continue until a leaf node is reached, which contains the final classification or regression prediction.
-### How we apply Machine learning in this project?
-In this project, we developed a classification model for five basic activities: lying, sitting, standing, walking, and jogging using Decision tree. The model with the highest accuracy will be exported and embedded on a microcontroller.
+### What is decision tree?
+Decision tree is a popular machine learning algorithm used for both classification and regression tasks. It is a visual representation of a decision-making process that resembles an upside-down tree. Decision tree works by recursively splitting data into subsets based on the most significant attributes or features. At each internal node of the tree, a decision is made, and branches are created that lead to child nodes. These decisions continue until a leaf node is reached, which contains the final classification or regression prediction.
+### How we apply machine learning in this project?
+In this project, we developed a classification model for five basic activities: lying, sitting, standing, walking, and jogging using decision tree. The model with the highest accuracy will be exported and embedded on a microcontroller.
 
-## BLUETOOTH LOW ENERGY - MOTION SENSING CARE with BGM220 Bluetooth Wireless Explore Kit
+## Wearable device for the elderly and patients undergoing functional recovery
 ### Description
-This project read accelerometer value from ADXL345 via I2C. These value is used to compute the features as input for human classification algothrithm. The system is provided by a battery and measured battery percentage through IADC.
+This project using the BGM220 Bluetooth Wireless Explore Kit as a microcontroller to read accelerometer value from ADXL345 via I2C. These value is used to compute the features as input for human classification algothrithm. The system using a LiPo battery and measured battery percentage through IADC.
 
 ### Hardware Required
 * BGM220P Bluetooth Wireless Explore Kit.
