@@ -65,7 +65,7 @@ Using Motion Care BLE mobile app is easy. It runs on your Android mobile devices
 After connecting the Motion Care app and BLE hardware (e.g., our wearable device), the wearable device shows a green light indicating when your setup is ready to go. The app will instantly recognize some daily basic activities including lying, sitting, standing, walking and jogging.
 
 # Additional information
-For more information about this project, feel free to contact us directly at room 704, A4 building, Phenikaa University, Yen Nghia, Ha Dong, Hanoi or via our website ssalab.phenikaa-uni.edu.vn. 
+For more information about this project, feel free to contact us directly at room 704, A4 building, Phenikaa University, Yen Nghia, Ha Dong, Hanoi or visit our website ssalab.phenikaa-uni.edu.vn. 
 
 
 
