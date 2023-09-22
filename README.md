@@ -7,9 +7,10 @@ Machine learning is a subset of artificial intelligence that focuses on the deve
 Decision tree is a popular machine learning algorithm used for both classification and regression tasks. It is a visual representation of a decision-making process that resembles an upside-down tree. Decision tree works by recursively splitting data into subsets based on the most significant attributes or features. At each internal node of the tree, a decision is made, and branches are created that lead to child nodes. These decisions continue until a leaf node is reached, which contains the final classification or regression prediction.
 ### How we apply machine learning in this project?
 In this project, we developed a classification model for five basic activities: lying, sitting, standing, walking, and jogging using decision tree. The model with the highest accuracy will be exported and embedded on a microcontroller.
-
+You can find the source code of the decision tree we used in machine_learning_algorithm folder.
 ## Wearable device for the elderly and patients undergoing functional recovery
 ### Description
+You can find the source code for the wearable device in wearable_device_program folder.
 This project using the BGM220 Bluetooth Wireless Explore Kit as a microcontroller to read accelerometer value from ADXL345 via I2C. These value is used to compute the features as input for human classification algothrithm. The system using a LiPo battery and measured battery percentage through IADC.
 
 ### Hardware Required
