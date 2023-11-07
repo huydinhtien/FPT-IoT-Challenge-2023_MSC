@@ -173,7 +173,7 @@ void check_standing(double std_x, double rms_x, double rms_y,uint16_t *value){
         }
     }
 }
-
+// sitting
 void check_sitting(double rms_x, double std_x, double rms_y, double iqr_x, double range_y, double mean_y,uint16_t *value){
     if(rms_x >TH_RMS_X && std_x<=TH_STD_X1 && rms_y > TH_RMS_Y){
         walk_t=0,jog_t=0,stand_t = 0;lie_t =0;sit_t ++;
@@ -191,7 +191,7 @@ void check_sitting(double rms_x, double std_x, double rms_y, double iqr_x, doubl
         }
     }
 }
-
+// jogging
 void check_jogging(double rms_x, double std_x, double iqr_x, double range_y, uint16_t *value){
     if(rms_x >TH_RMS_X && std_x>TH_STD_X1 && iqr_x> TH_IQR_X){
         walk_t=0,jog_t++,stand_t = 0;lie_t =0;sit_t=0;
@@ -209,6 +209,7 @@ void check_jogging(double rms_x, double std_x, double iqr_x, double range_y, uin
          }
     }
 }
+// walking
 void check_walking(double rms_x, double std_x, double iqr_x, double range_y, double mean_y, uint16_t *value){
     if(rms_x >TH_RMS_X && std_x >TH_STD_X1 && iqr_x<= TH_IQR_X && range_y <=TH_RANGE_Y && mean_y<=TH_MEAN_Y){
         walk_t++,jog_t=0,stand_t = 0;lie_t =0;sit_t=0;
